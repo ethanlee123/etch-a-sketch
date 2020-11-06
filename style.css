@@ -1,0 +1,30 @@
+body {
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+#container {
+    height: auto;
+    width: auto;
+    display: grid;
+
+    grid-gap: 3px;
+    justify-content: center;
+    margin: 10px 20% 50px 20%;
+}
+
+.cell {
+    /* justify-items: center;
+    align-items: center;
+    display: flex; */
+    background-color: black;
+}
+
+.change-color{
+    background-color: red;
+}
+
+.options {
+    margin: 10px 20% 0 20%;
+}
